@@ -7,7 +7,8 @@
     "build": "webpack --config ./webpack-production.config.js --progress --colors",
     "lint": "eslint ./app/ --ext .js --ext .jsx --fix",
     "watch": "webpack --watch --progress",
-    "clean": "rm -rf dist && npm cache clean"
+    "clean": "rm -rf dist && npm cache clean",
+    "storybook": "start-storybook -p 9001"
   },
   "repository": {
     "type": "git",
